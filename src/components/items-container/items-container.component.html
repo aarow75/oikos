@@ -1,0 +1,14 @@
+<div #container class="items-container {{client.imageOrientation}}">
+    <h2><img src="{{client.logoUrl}}" alt="{{client.name}}" /></h2>
+    <swiper-container
+        #swiper
+        [slides-per-view]="3"
+        [space-between]="30"
+        [pagination]="{ clickable: true }"
+        [navigation]="true"
+    >
+    @for (item of client.items; track item) {
+        <swiper-slide><a-item [item]="item" (onItemClick)="selectedItem(item)"></a-item></swiper-slide>
+    }
+    </swiper-container>
+</div>

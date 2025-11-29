@@ -1,0 +1,21 @@
+
+.items-container {
+    background-color: var(--oikos-background-color);
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.landscape {
+    --oikos-position: relative;
+}
+
+.portrait {
+    --oikos-position: absolute;
+
+}

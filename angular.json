@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pantheon": {
+    "oikos": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "pantheon:build:production"
+              "buildTarget": "oikos:build:production"
             },
             "development": {
-              "buildTarget": "pantheon:build:development"
+              "buildTarget": "oikos:build:development"
             }
           },
           "defaultConfiguration": "development"

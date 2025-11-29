@@ -1,4 +1,9 @@
-# Pantheon
+# Oikos
+
+Oikos: A webchat interface for Home Builder Communities and Graduate School Programs
+- provides a mechanism to display and scroll items for clients
+- components for displaying title, subtitle, images, etc
+- components with actions that can be taken for the particular item
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
