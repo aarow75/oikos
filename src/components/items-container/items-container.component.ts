@@ -17,7 +17,6 @@ export class ItemsContainerComponent implements OnChanges, AfterViewInit, OnDest
     @Input() clientIndex: number = 0;
     private destroy$ = new Subject<void>();
     private readonly clientService = inject(ClientService);
-    client$: Observable<Client> = this.clientService.getClientByIndex(this.clientIndex);
     client!: Client;
 
     ngAfterViewInit(): void {
